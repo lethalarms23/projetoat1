@@ -1,0 +1,10 @@
+@extends('layout')
+@section('titulo-pagina')
+Noticias
+@endsection
+@section('header')
+Noticias
+@endsection
+@section('conteudo')
+Noticias
+@endsection
