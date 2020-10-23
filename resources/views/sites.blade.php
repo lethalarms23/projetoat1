@@ -7,6 +7,8 @@ Sites
 @endsection
 @section('conteudo')
 @foreach ($siteslista as $numerosites)
-    <a href="{{$numerosites}}" style="text-align: center;" target="_blank"><h5>{{$numerosites}}</h5></a>
+    <div style="text-align: center">
+    <p><a href="{{$numerosites}}" target="_blank"><h5>{{$numerosites}}</h5></a></p>
+    </div>
 @endforeach
 @endsection
