@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('view.index');
+Route::get('/', 'App\Http\Controllers\PortalController@marcaArray')->name('view.index');
 
 Route::get('/noticias', function () {
     return view('noticias');

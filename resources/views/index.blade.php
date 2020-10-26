@@ -15,10 +15,9 @@ Formulário
 <input type="text" name="morada">
 <label for="automovel">Automovel</label>
 <select name="automovel">
-    <option value="Toyota">Toyota</option>
-    <option value="BMW">BMW</option>
-    <option value="Jaguar">Jaguar</option>
-    <option value="Audi">Audi</option>
+@foreach($marcas as $marca => $item)
+    <option value="{{$marca}}">{{$marca}}</option>
+@endforeach
 </select>
 <button type="submit">Enviar</button>
 </form>

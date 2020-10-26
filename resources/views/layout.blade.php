@@ -19,7 +19,7 @@
         <a href="{{route('sites.index')}}">Contactos</a>
         <br>
         <br>
-        <img src="{{asset('img/LethalArmsLogo.png')}}" style="width: 7%;">
+        <a href="{{route('view.index')}}"><img src="{{asset('img/LethalArmsLogo.png')}}" style="width: 7%;"></a>
     </div>
     <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <script src="{{asset('js/all.min.js')}}"></script>
